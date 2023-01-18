@@ -1,8 +1,9 @@
 /* parent style */
 body{
-    /* font-family: ; */
+    
     color: #131313;
-    /* margin: 0 160px; */
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -12,99 +13,246 @@ body{
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .nav-title{
     font-weight: 700;
     font-size: 45px;
-    width: 302px;
+    width: 300px;
+    
+
+    
 }
 .nav-info{
     display: flex;
     justify-content: space-between;
     font-weight: 500;
     font-size: 18px;
-    width: 477px;
+    width: 300px;
     color: #424242;
+    margin-left: 500px;
+
 }
 
 /* title part */
 .title-part{
     text-align: center;
-    width: 862px;    
+    width: 620px;
+    margin-left: 380px;
+    
 }
 .title{
     font-weight: 700;
     font-size: 64px;
-    text-align: center   
+    margin-top: 0;
+    margin-bottom: 20px; 
 }
 .title-description{
-    width: 868px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    text-align: center;
+    
 }
 .btn{
-    width: 180px;
-    height: 64px;
+    width: 170px;
+    
     border-radius: 8px;
     background-color: orangered;
-    justify-content: center;
-}
-.btn-text{
+    margin-left: 600px;
+    color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
-    width: 131px;
-    height: 23px;
-    text-align: center;
-    color: #FFFFFF;
 }
-.header-img{
-    width: 800px;
-    height: 400px;
+
+.header-img img{
+    width: 1146px;
+    height: 548px;
     border-radius: 8px;
+    margin-left: 100px;
+    margin-top: 30px;
    
 }
 
 /* main section */
 .second-part{
     display: flex;
-    justify-content: space-between;
+    
 }
 .second-part-img{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 342px;
-    height: 342px;
-    border-radius: 8px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
 
+}
+.img-team1 img,.img-team2 img,.img-team3 img,.img-team4 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
 }
 .second-part-detail{
-
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 150px;
+    border-radius: 8px;
 }
+.second-title{
+    font-weight: 500;
+    font-size: 30px;
+}
+.second-title .span1{
+    color: #727272;
+}
+.second-title .span2{
+    color:#131313;
+}
+.second-title .span3{
+    color:#FF900E;
+}
+.second-title-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.btn2{
+    width: 170px;
+    border-radius: 8px;
+    background-color: orangered;
+    margin-left: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 /* third part */
 .third-part{
     display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.third-part-all-text{
+    width: 450px;
+    margin-right: 100px;
+}
+.third-part-title{
+    width: 300px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.third-part-heading p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.third-part-detail{
+    margin-left: 20px;
+}
+.article-1 p, .article-2 p, .article-3 p, .article-4 p{
+    color: #727272;
+}
+.third-part-img img{
+    width: 550px;
+    height: 650px;
+    border-radius: 8px;
+    background: url(/images/architect.png);
 }
 .btn-3rd{
-    width: 342px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
     background-color: orangered;
     border-radius: 8px;
 }
-.btn-3rd-text{
+ .btn-3rd-text{
     text-align: center;
-    color: #FFFFFF;
-    
-}
-.btn-3rd-text1{
+    color: #FFFFFF;    
+} 
+ .btn-3rd-text1{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 30px;
 }
 .btn-3rd-text2{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
 }
+.some-fact{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.some-fact h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+.some-fact p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 420px;
+}
+/* fourth part */
+.fourth-part{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 80px;
+}
+.icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 130px;
+    
+}
+.icon-ribon, .icon-projects, .icon-customers, .icon-email{
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+
+/* fifth part */
+.fifth-part{
+    margin-top: 80px;
+}
+.fifth-part h1{
+    font-weight: 700;
+    font-size: 30px;
+    width: 327px;
+    text-align: center;
+    margin-left: 540px;
+}
+.fifth-part p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 450px;
+    color: #727272;
+    text-align: center;
+    margin-left: 480px;
+}
+
+/* sixth part */
+.sixth-part{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+/* footer */
+.footer{
+    background: #FFF4E7;
+    width: 1146px;
+    height: 60px;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.footer-text{
+    text-align: center;
+}
+
